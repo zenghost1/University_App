@@ -14,29 +14,29 @@ class Alert {
 
 List<Alert> attnList = [
   Alert(
+    title: "Database Management",
+    subject: "CDCSC08",
+    time: "Sleep, Peace out",
+  ),
+  Alert(
     title: "Web Technology",
     subject: "CDCSC05",
-    time: "Chill , you are in\nthe safe Zone",
+    time: "Live another day to die",
   ),
   Alert(
     title: "Design and Analysis\nof Algorithms",
     subject: "CDCSC06",
-    time: "You gotta attend\nmore classes",
+    time: "Ah Shit! \nHere we go again",
   ),
   Alert(
     title: "Computer Architecture",
     subject: "CDCSC07",
-    time: "You gotta end attend\nmore Classes",
+    time: "Please STOP",
   ),
   Alert(
     title: "Microprocessor and\nMicrocontroller",
     subject: "CDCSC08",
-    time: "Chill, you are in\nthe safe Zone",
-  ),
-  Alert(
-    title: "Database Management",
-    subject: "CDCSC08",
-    time: "Chill, you are in\nthe safe Zone",
+    time: "LITERALLY PLEASE",
   ),
 ];
 
@@ -106,6 +106,7 @@ class RecentsAttendance extends StatelessWidget {
                           Text(
                             "${attnList[index].time}",
                             style: const TextStyle(
+                              fontWeight: FontWeight.bold,
                               color: kTextColor,
                               fontSize: 15.0,
                             ),

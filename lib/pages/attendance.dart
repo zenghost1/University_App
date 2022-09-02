@@ -37,10 +37,11 @@ class Attendance extends StatelessWidget {
               RecentsAttendance(),
               Center(
                 child: Text(
-                  "View all",
+                  "Enjoy And Forget",
                   style: TextStyle(
                       color: Theme.of(context).colorScheme.secondary,
-                      fontSize: 15.0),
+                      fontSize: 15.0,
+                      fontWeight: FontWeight.bold),
                 ),
               ),
               const SizedBox(height: 20.0),
