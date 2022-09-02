@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nsutxapp/widgets/Grid.dart';
 import '../widgets/recent_alerts.dart';
 import '../widgets/recent_homework.dart';
 
@@ -14,28 +15,27 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return ListView(
       children: <Widget>[
-        // const Header(),
-        // Padding(
-        //   padding: const EdgeInsets.symmetric(horizontal: 30.0),
-        //   child: TextField(
-        //     style: const TextStyle(color: kTextColor),
-        //     cursorColor: kTextColor,
-        //     decoration: InputDecoration(
-        //       contentPadding: const EdgeInsets.all(8.0),
-        //       border: InputBorder.none,
-        //       fillColor: Theme.of(context).primaryColor,
-        //       filled: true,
-        //       hintText: "Search",
-        //       hintStyle: const TextStyle(color: kTextColor),
-        //       prefixIcon:
-        //           const Icon(Icons.search, color: kTextColor, size: 26.0),
-        //       enabledBorder: OutlineInputBorder(
-        //         borderRadius: BorderRadius.circular(30.0),
-        //       ),
-        //     ),
-        //   ),
-        // ),
         const SizedBox(height: 30.0),
+        // Card(
+        //   color: Colors.black,
+        //   shadowColor: Colors.transparent,
+        //   margin: const EdgeInsets.all(28),
+        //   // elevation: 8,
+        //   shape:
+        //       RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
+        //   child: Homegrid(),
+        // ),
+        Container(
+          padding: const EdgeInsets.only(left: 5.0, right: 20.0),
+          decoration: BoxDecoration(
+            // boxShadow: [BoxShadow(blurRadius: 1, color: Colors.white70)],
+            color: const Color(0xFF282B30).withOpacity(0.5),
+            borderRadius: const BorderRadius.all(
+              Radius.circular(20.0),
+            ),
+          ),
+          child: const Homegrid(),
+        ),
         Container(
           padding: const EdgeInsets.all(15.0),
           decoration: const BoxDecoration(

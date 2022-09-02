@@ -87,23 +87,19 @@ class Sidebar extends StatelessWidget {
       },
       controller: SidebarXController(selectedIndex: 0, extended: true),
       items: const [
-        SidebarXItem(icon: Icons.format_list_bulleted_sharp, label: 'Profile'),
-        SidebarXItem(
-            icon: Icons.format_list_bulleted_sharp, label: 'Attendance'),
-        SidebarXItem(
-            icon: Icons.format_list_bulleted_sharp, label: 'Time table'),
-        SidebarXItem(icon: Icons.format_list_bulleted_sharp, label: 'TO DO'),
-        SidebarXItem(icon: Icons.format_list_bulleted_sharp, label: 'Notices'),
-        SidebarXItem(icon: Icons.format_list_bulleted_sharp, label: 'Syllabus'),
-        SidebarXItem(icon: Icons.format_list_bulleted_sharp, label: 'PYQs'),
-        SidebarXItem(icon: Icons.format_list_bulleted_sharp, label: 'Courses'),
-        SidebarXItem(
-            icon: Icons.format_list_bulleted_sharp, label: 'Results.. scary'),
-        SidebarXItem(icon: Icons.format_list_bulleted_sharp, label: 'Socities'),
-        SidebarXItem(icon: Icons.format_list_bulleted_sharp, label: 'Events'),
-        SidebarXItem(
-            icon: Icons.format_list_bulleted_sharp, label: 'Abouts Us'),
-        SidebarXItem(icon: Icons.format_list_bulleted_sharp, label: 'FAQs'),
+        SidebarXItem(icon: Icons.person, label: 'Profile'),
+        SidebarXItem(icon: Icons.check, label: 'Attendance'),
+        SidebarXItem(icon: Icons.timeline, label: 'Time table'),
+        SidebarXItem(icon: Icons.checklist, label: 'TO DO'),
+        SidebarXItem(icon: Icons.bookmark, label: 'Notices'),
+        SidebarXItem(icon: Icons.book, label: 'Syllabus'),
+        SidebarXItem(icon: Icons.school, label: 'PYQs'),
+        SidebarXItem(icon: Icons.menu_book, label: 'Courses'),
+        SidebarXItem(icon: Icons.menu_open_rounded, label: 'Results.. scary'),
+        SidebarXItem(icon: Icons.build, label: 'Socities'),
+        SidebarXItem(icon: Icons.account_tree, label: 'Events'),
+        SidebarXItem(icon: Icons.adobe_outlined, label: 'Abouts Us'),
+        SidebarXItem(icon: Icons.question_answer, label: 'FAQs'),
       ],
     );
   }

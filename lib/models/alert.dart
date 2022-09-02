@@ -8,23 +8,28 @@ class Alert {
 
 List<Alert> recentAlerts = [
   Alert(
-    title: "Math Test",
-    subject: "Trigonometry",
-    time: DateTime.parse("2020-06-06 12:30:00"),
+    title: "Web Technology",
+    subject: "CDCSC05",
+    time: DateTime.parse("2022-09-01 10:30:00"),
   ),
   Alert(
-    title: "Physics Test",
-    subject: "Gravitation",
+    title: "Design and Analysis \nof Algorithms",
+    subject: "CDCSC06",
+    time: DateTime.parse("2020-09-06 14:30:00"),
+  ),
+  Alert(
+    title: "Computer Architecture",
+    subject: "CDCSC07",
     time: DateTime.parse("2020-06-06 14:30:00"),
   ),
   Alert(
-    title: "Physics Test",
-    subject: "Gravitation",
+    title: "Microprocessors and \nMicrocontrollers",
+    subject: "CDCSC08",
     time: DateTime.parse("2020-06-06 14:30:00"),
   ),
   Alert(
-    title: "Physics Test",
-    subject: "Gravitation",
+    title: "Database management \nsystem",
+    subject: "CDCSC08",
     time: DateTime.parse("2020-06-06 14:30:00"),
   ),
 ];

@@ -29,8 +29,8 @@ class _HomeScreenState extends State<HomeScreen> {
     const TimeTable(),
     const Attendance(),
     const Home(),
-    const ToDO(),
     const Notices(),
+    const RegisteredCoursesPage(),
   ];
 
   // Widget Drawer(){
@@ -92,12 +92,12 @@ class _HomeScreenState extends State<HomeScreen> {
                   text: 'Home',
                 ),
                 GButton(
-                  icon: Icons.check_box_outlined,
-                  text: 'To Do',
-                ),
-                GButton(
                   icon: Icons.notifications_active_rounded,
                   text: 'Notices',
+                ),
+                GButton(
+                  icon: Icons.book,
+                  text: 'Courses',
                 ),
               ]),
         ),
